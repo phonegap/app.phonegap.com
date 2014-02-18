@@ -1,0 +1,15 @@
+{% capture current_url %}{{ page.url | replace: 'index.html','' }}{% endcapture %}
+<header id="header">
+    <div class="wrap">
+        <a href="{{ site.baseurl }}/" class="logo">
+            <img src="{{ site.baseurl }}/assets/images/logo.svg" alt=""/>
+            <span class="header">{{ site.name }}</span>
+        </a>
+        <nav>
+            {% for item in site.menu%}
+            <a href="{{ site.baseurl }}{{ item.path }}" class="{% if item.hide_on_mobile %}mobile-hide {% endif %}{% if current_url == item.path %} selected{% endif %}">{{ item.title }}</a>
+            {% endfor %}
+            <a class="bt" href="{{ site.download.zip }}" onclick="trackOutboundLink(this, 'Download', '{{ site.download.version }}');return false;">Download</a>
+        </nav>
+    </div>
+</header>

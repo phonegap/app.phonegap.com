@@ -1,0 +1,83 @@
+/* ----------------------------
+    Variables 
+ ------------------------------ */
+
+/* Background colors */
+$base-color: #fff;
+$primary-color: #09b39c;
+$primary-dark: darken( $primary-color, 5% );
+$primary-light: lighten( $primary-color, 5% );
+$secondary-color: #ea7373;
+
+/* Text */
+$font-color: #25382f;
+$sub-font-color: #777;
+$link-color: #00a99d;
+$basic-font-size: 18px;
+
+/* Numbers */
+$width: 1200px;
+$header-height: 90px;
+$pad: 80px;
+
+
+/* ----------------------------
+    Mixins 
+ ------------------------------ */
+
+@mixin saw($color, $size: 60px, $side: 'left') {
+    &:after {
+        #{$side}: 2%;
+        @if $side == right {
+            left: auto;
+        } @else {
+            right: auto;
+        }
+        bottom: -$size;
+        content: '';
+        position: absolute;
+        border-top: $size $color solid;
+        border-left: transparent $size solid;
+        border-right: transparent $size solid;
+        z-index: 2;
+    }
+}
+
+@mixin filler($color) {
+    background: $color; 
+    color: $base-color;
+
+    p {
+        color: $base-color;
+
+        a {
+            color: #fff;
+            font-weight: 500;
+        }
+    }
+
+    .saw {
+        @include saw( $color );
+    }
+}
+
+@mixin corner-radius($radius: 5px) {
+    border-radius: $radius;
+    -moz-border-radius: $radius;
+    -webkit-borderradius: $radius;
+}
+
+@mixin transition($transition-property, $transition-time: 0.2s, $method: linear ) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+@mixin background-size($value: cover) {
+    -webkit-background-size: $value;
+    -moz-background-size: $value;
+    -o-background-size: $value;
+    background-size: $value;
+}

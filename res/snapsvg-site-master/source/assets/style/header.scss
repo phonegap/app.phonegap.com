@@ -1,0 +1,64 @@
+@import "mixins.scss";
+
+#header {
+    position: fixed;
+    height: $header-height;
+    background: $base-color;
+    background: rgba(255,255,255,0.9);
+    left: 0; right: 0; top: 0;
+    z-index: 99;
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0; bottom: -2px; right: 0;
+        border-bottom: 2px solid rgba(0,0,0,0.1);
+    }
+
+    .wrap {
+        padding: 28px 0 10px;
+    }
+
+    a {
+        color: $font-color;
+        font-size: 1.0em;
+        @include transition( color )
+    }
+
+    .logo {
+        img {
+            float: left;
+            margin-top: -12px;
+            margin-left: -10px;
+            width: 60px;
+            height: 60px;
+        }
+        float: left;
+        line-height: 36px;
+
+        .header {
+            letter-spacing: -.05em;
+            font-size: 2em;
+            font-weight: 300;
+        }
+    }
+
+    nav {
+        float: right;
+
+        a {
+            margin-left: 40px;
+            font-weight: 400;
+            font-size: 0.9em;
+
+            &.selected {
+                border-bottom: 4px solid $primary-color;
+            }
+        }
+
+        .bt {
+            color: #fff;
+            @include transition( background-color );
+        }
+    }
+}

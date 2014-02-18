@@ -1,0 +1,20 @@
+menu:
+- title: Home
+  path: "/"
+- title: Why Snap
+  path: "/about/"
+- title: Getting Started
+  path: "/start/"
+  hide_on_mobile: true
+- title: Docs
+  path: "/docs/"
+  hide_on_mobile: true
+- title: Support
+  path: "/support/"
+- title: Demos
+  path: "/demos/"
+  hide_on_mobile: true
+
+download:
+  zip: https://github.com/adobe-webplatform/Snap.svg/archive/v0.2.0.zip
+  version: 0.2.0

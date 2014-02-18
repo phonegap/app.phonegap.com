@@ -1,0 +1,29 @@
+@import "mixins.scss";
+
+.bt {
+    background: $primary-color;
+    display: inline-block;
+    color: #fff;
+    padding: 4px 20px;
+    text-align: center;
+    border-bottom: $primary-dark 2px solid;
+    @include corner-radius;
+    @include transition( background-color );
+
+    &:hover {
+        color: #fff;
+        background-color: $primary-light;
+    }
+
+    &.large {
+        font-size: 1.5em;
+        padding: 5px 20px;
+    @include corner-radius( 8px );
+    }
+
+    .sub-text {
+        margin-top: -0.5em;
+        display: block;
+        font-size: 0.5em;
+    }
+}
