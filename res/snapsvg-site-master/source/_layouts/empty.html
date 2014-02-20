@@ -9,7 +9,6 @@
     {% for item in page.stylesheets%}
         <link rel="stylesheet" href="{{ site.baseurl }}{{ item }}?v={{ site.build_time }}">
     {% endfor %}
-    {% include ga.html %}
   </head>
   <body class="light">
     {{ content }}
