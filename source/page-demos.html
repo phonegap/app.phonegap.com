@@ -1,0 +1,90 @@
+---
+layout: demo
+title: Snap Demos
+permalink: /demos/
+---
+
+<script src="{{ site.baseurl }}/assets/js/jquery-2.0.3.min.js"></script>
+<section class="demo">
+        <aside>
+            <nav>
+                <h3>Websites using Snap</h3>
+                <a class="ext" href="http://pbskids.org/" target="_blank"><img src="{{ site.baseurl }}/assets/demos/thumbs/pbs.jpg" alt=""/><span>PBS KIDS</span></a>
+            </nav>
+        </aside>
+        <iframe id="demo-container" src="{{ site.baseurl }}/assets/demos/illustrated-infographic-coffee" height=800></iframe>
+</section>
+
+<script>
+    var baseurl = "{{ site.baseurl }}/assets/demos/",
+    imgbaseurl = "{{ site.baseurl }}/assets/demos/thumbs/",
+    container = $('#demo-container'),
+    navtemp = '<a href="#UID" class="nav-UID"><img src="IMGSRC" alt=""/>TITLE</a>',
+    navitems = ["<h3>{{ page.title }}</h3>"];
+
+    var contents = {
+        coffee:{
+            title:'Coffeemaker',
+            path:'illustrated-infographic-coffee',
+            height:860
+        },
+        game:{
+            title:'Animated game',
+            path:'animated-game',
+            height:800
+        },
+        globe:{
+            title:'Globe',
+            path:'animated-map',
+            height: 700
+        },
+        mascot:{
+            title:'Snap Mascot',
+            path:'snap-mascot',
+            height:800
+        },  
+        display:{
+            title:'Display Ad',
+            path:'snap-ad',
+            height:500
+        }
+    };
+
+    for (var key in contents) {
+        var item = contents[key],
+        template = navtemp.replace(/UID/g, key)
+            .replace('IMGSRC', imgbaseurl+key+'.jpg')
+            .replace('TITLE', item.title);
+        navitems.push(template);
+    }
+
+    $('.demo nav').prepend(navitems.join(''));
+
+    selectNavItem('coffee');
+
+    function loadContent( key ) {
+        var item = contents[key];
+        if (!item) return;
+        selectNavItem(key);
+        container.attr({
+            src:baseurl+item.path,
+            height:item.height
+        });
+    };
+
+    function selectNavItem( key ) {
+        $('.demo nav .selected').removeClass('selected');
+        $('.demo nav .nav-' + key).addClass('selected');
+    }
+
+    $(document).ready(function() {
+        if ( window.location.hash ) {
+            loadContent( window.location.hash.replace('#', '') );
+        }
+
+        $('.demo nav a').click(function(e) {
+            loadContent( $(this)[0].hash.replace('#','') );
+        });
+    });
+   
+</script>

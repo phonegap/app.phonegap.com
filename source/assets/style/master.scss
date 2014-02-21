@@ -1,0 +1,609 @@
+@import "mixins.scss";
+
+/* ----------------------------
+    Common 
+ ------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    // -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+}
+
+html, body { 
+    height: 100%;
+}
+
+img {
+    border: none;
+}
+
+body {
+    font-family: source-sans-pro, Helvetica, Arial, sans-serif, sans-serif;
+    font-size: $basic-font-size;
+    margin-top: $header-height;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%; 
+    font-weight: 300;
+}
+
+h1 {    font-size: 4.0em; font-weight: 500; letter-spacing: -.05em;   }
+h2 {    font-size: 2.2em;   }
+h3 {    font-size: 1.4em;   }
+h4 {    font-size: 1.8em; font-weight: 200;   }
+
+p { 
+    margin: 0.5em 0 1.2em;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: $sub-font-color;
+}
+
+b {
+    font-weight: 500;
+    color: $font-color;
+}
+
+li {
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+ul, ol {
+    padding-left: 3em;
+    li {
+        color: $sub-font-color;
+    }
+}
+
+ul li {
+    list-style: disc;
+}
+
+a { 
+    color: $link-color;
+    text-decoration: none;
+    &:hover   { color: $link-color; }
+    // &:visited { color: #a0a; }
+}
+
+hr {
+    clear: both;
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 0 auto;
+    width: 80%;
+    max-width: $width;
+}
+
+form {
+    text-align: center;
+    padding-top: $pad;
+
+    label {
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+        margin-right: 20px;
+        font-weight: 300;
+    }
+
+    select {
+        width: 300px;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        width: 274px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 16px;
+        padding: 3px 8px;
+    }
+
+    .control-group {
+        margin-bottom: 1em;        
+    }
+}
+
+/* ----------------------------
+    Layout I
+ ------------------------------ */
+
+.wrap {
+    width: 80%;
+    max-width: $width;
+    margin: 0 auto;
+    position: relative;
+}
+
+.saw {
+    @include saw( $base-color, 60px, 'right' );
+}
+
+section {
+    position: relative;
+
+    .wrap {
+        min-height: 200px;
+        padding: $pad 0;
+        width: 55%;
+        padding-right: 25%;
+
+        .insert {
+            position: absolute;
+            top: 60px;
+            right: 0%;
+            width: 33%;
+            max-width: 250px;
+
+            &.large {
+                top: $pad/2;
+                right: -12.5%;
+                width: 40%;
+                max-width: 400px;
+            }
+        }
+
+        &.reverse {
+            padding-right: 0;
+            padding-left: 25%;
+
+            .insert {
+                right: auto;
+                left: 0%;
+
+                &.large { left: -13%; }
+            }
+        }
+
+        &.center {
+            text-align: center;
+            min-height: 130px;
+            margin-top: 40px
+        }
+
+        &.full {
+            padding-right: 0;
+            padding-left: 0;
+            width: 80%;
+        }
+
+        &.short {
+            padding-top: 40px;
+            padding-bottom: 20px;
+            min-height: 70px;
+        }
+    }
+}
+
+.primary {
+    @include filler( $primary-color );
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+}
+
+.secondary {
+    @include filler( $secondary-color );
+}
+
+.reverse {
+    padding-left: 37.5%;
+    padding-right: 0;
+}
+
+
+/* ----------------------------
+    Navigation
+ ------------------------------ */
+
+@import "header.scss";
+
+footer {
+    clear: both;
+    min-height: 100px;
+    border-top: 1px solid #eee;
+
+    .wrap {
+        padding: 40px 0;
+        font-size: 0.8em;
+        color: $sub-font-color;
+    }
+
+    nav {
+        $icon-size: 64px;
+        text-align: center;
+        a {
+            width: $icon-size;
+            height: $icon-size;
+            background-color: $sub-font-color;
+            @include transition( background-color );
+            display: inline-block;
+            margin: 0 70px;
+            @include background-size( cover );
+            overflow: hidden;
+            position: relative;
+
+            &.adobe-logo { background-image: url('../images/logo-adobe.svg')}
+            &.github-logo { background-image: url('../images/logo-github.svg')}
+            &.twitter-logo { background-image: url('../images/logo-twitter.svg')}
+            &.google-groups-logo { background-image: url('../images/logo-google-groups.svg')}
+
+            &:hover {
+                background-color: $primary-color;
+                &.twitter-logo {    background-color: #2ba9e1; }
+                &.adobe-logo {      background-color: #ed1c24; }
+                &.google-groups-logo{   background-color: #1b4eed; }
+            }
+        }
+    }
+}
+
+
+/* ----------------------------
+    UI
+ ------------------------------ */
+
+@import "ui.scss";
+
+
+/* ----------------------------
+    Page - Specific
+ ------------------------------ */
+
+#hero {
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-position: 40% 50%;
+    section {
+        padding: $pad*2 0 40px;
+    }
+    .wrap {
+        img.insert {
+            top: 50px;
+        }
+    }
+}
+
+#get-snap {
+    padding: 40px 0;
+    background: url(../images/background_2.svg) no-repeat -650px 0;
+
+    .wrap {
+        z-index: 2;
+    }
+
+    h2 {
+        margin-right: 20px;
+        display: inline-block;
+    }
+}
+
+.demo {
+    aside {
+        width: 25%;
+        float: left;
+    }
+
+    iframe {
+        width: 75%;
+        min-height: 300px;
+        border: none;
+        float: right;
+    }
+
+    nav {
+        padding: 0 0 30px;
+
+        h3 {
+            padding: 2px 8px;
+            font-size: 0.9em;
+            color: #fff;
+            text-align: left;
+            background: #9ea8af;
+            border-bottom: 1px solid #fff;
+        }
+
+        a {
+            position: relative;
+            color: $font-color;
+            display: block;
+            height: 80px;
+            line-height: 80px;
+            border-bottom: 1px solid #fff;
+            @include transition( background-color );
+
+            &:hover {
+                background-color: #eee;
+            }
+
+            img {
+                background: #fff;
+                float: left;
+                width: 80px;
+                height: 80px;
+            }
+
+            &.selected {
+                text-indent: 0;
+                padding-right: 8px;
+                background-color: $secondary-color;
+                color: #fff;
+            }
+
+            &.ext:after {
+                content: '';
+                background: url('../images/icon-external.svg');
+                background-size: cover;
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+            }
+
+        }
+    }
+    text-align: center;
+}
+
+.video-container {
+    background: #333;
+    color: #fff;
+    padding: $pad 5% $pad;
+    text-align: center;
+
+    p {
+        color: #bbb;
+    }
+
+    a {
+        color: $secondary-color;
+    }
+}
+
+.youtube-video {
+    display: inline-block;
+    width: 800px;
+    height: 520px;
+}
+
+/* ----------------------------
+    Responsive
+ ------------------------------ */
+
+
+@media all and (max-width:1150px) { 
+    $full-width: 90%;
+    $padding: 31%;
+
+    .wrap {
+        width: $full-width;
+    }
+    
+    section .wrap {
+        width: $full-width - $padding;
+        padding-right: $padding;
+
+        .insert.large { right: -5.5%;}
+        &.reverse {
+            padding-right: 0;
+            padding-left: $padding;
+            .insert.large { left: -6%; }
+        }
+    }
+
+    #header {
+        .logo .header {
+            font-size: 1.6em;
+        }
+        nav a {
+            font-size: 0.9em;
+            margin-left: 20px
+        }
+    }
+}
+
+@media all and (max-width:1000px) { 
+    $full-width: 95%;
+    $padding: 38%;
+
+    .wrap, section .wrap.full {
+        width: $full-width;
+    }
+    
+    section .wrap {
+        width: $full-width - $padding;
+        padding-right: $padding;
+
+        .insert.large { right: -2%;}
+        &.reverse {
+            padding-right: 0;
+            padding-left: $padding;
+            .insert.large { left: -2%; }
+        }
+    }
+
+    .demo {
+        nav {
+            h3 {
+                font-size: 0.8em;
+            }
+
+            a {
+                height: 50px;
+                line-height: 50px;
+                font-size: 0.9em;
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+
+    .youtube-video {
+        width: 700px;
+        height: 456px;
+    }
+
+    footer {
+        nav a {
+            $icon-size: 48px;
+            margin: 0 30px;
+            width: $icon-size;
+            height: $icon-size;
+        }
+    }
+}
+
+
+@media all and (max-width:800px) { 
+    .youtube-video {
+        width: 100%;
+        height: 280px;
+    } 
+}
+
+
+@media all and (max-width:750px) { 
+    $full-width: 95%;
+
+    .mobile-hide {
+        display: none
+    }
+
+    body {
+        margin-top: 0;
+    }
+
+    #header {
+        position: relative;
+        height: auto;
+        padding-bottom: 10px;
+        text-align: center;
+
+        .logo {
+            float: none;
+            display: inline-block;
+            margin-top: -6px;
+            height: 60px;
+        }
+
+        nav {
+            clear: both;
+            display: block;
+            float: none;
+            padding-top: 10px;
+            margin-top: -8px;
+            border-top: 1px solid #eee;
+
+            a {
+                float: none;
+                font-size: 0.8em;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+
+            .bt {
+                display: none;
+            }
+        }
+    }
+
+    section .wrap {
+        width: $full-width;
+        padding: 50px 0;
+        min-height: 0;
+
+        &.reverse {
+            padding-left: 0;
+        }
+
+        .insert {
+            position: relative;
+            max-height: 200px;
+            max-width: none;
+            display: none;
+        }
+
+        &.short {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            min-height: 0;
+        }
+    }
+
+    h1 {    font-size: 2.8em; }
+    h2 {    font-size: 1.6em; }
+    h3 {    font-size: 1.2em; }
+    h4 {    font-size: 1.5em; font-weight: 300; }
+
+    #hero, .primary {
+        background-size: 1600px 400px;
+        background-position: -500px 0;
+    }
+
+    .primary {
+        background-position: -500px -50px;
+    }
+
+    #get-snap {
+        display: none
+    }
+
+    .saw, .primary .saw, .secondary .saw {
+        &:after {
+            border-width: 22px;
+            border-bottom-width: 0;
+            bottom: -22px;
+        }
+    }
+
+    .demo {
+        aside {
+            width: 100%;
+            display: block;
+            float: none;
+        }
+        iframe {
+            width: 100%;
+            display: block;
+            float: none;
+        }
+        nav {
+            padding: 0 0 0;
+        }
+    }
+}
+
+@media all and (max-width:480px) { 
+    #hero, .primary {
+        background-size: 1200px 300px;
+        background-position: -340px 0;
+    }
+
+    .primary {
+        background-position: -340px -50px;
+    }
+
+    footer {
+        nav a {
+            $icon-size: 40px;
+            margin: 0 16px;
+            width: $icon-size;
+            height: $icon-size;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

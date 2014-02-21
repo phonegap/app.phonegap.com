@@ -1,0 +1,9 @@
+menu:
+- title: Download and Install CLI
+  path: "#step-1"
+- title: Download the App
+  path: "#step-2"
+- title: Pair CLI to App
+  path: "#step-3"
+- title: Feel the Power!
+  path: "#step-4"
