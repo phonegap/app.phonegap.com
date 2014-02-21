@@ -1,7 +1,7 @@
-snapsvg-site
+app.phonegap.com
 ===
 
-Website for [Snap.svg](htpp://snapsvg.org)
+Website for [app.phonegap.com](htpp://app.phonegap.com)
 
 
 Requirement
@@ -34,4 +34,4 @@ Deploying the site
     $ git checkout gh-pages
     $ rake deploy
 
-The site will go live at [http://adobe-webplatform.github.io/snapsvg-site/public/](http://adobe-webplatform.github.io/snapsvg-site/public/). This will push the site instanteneously, so be aware. If you understand how the deploy script works in both `master` and `gh-pages`, you can just do `rake deploy` without gheckout out `gh-pages`. If you get serious errors in deploy script, make sure you abort the script. The script will ask you before it pushes everything live.
+The site will go live at [http://app.phonegap.com](http://app.phonegap.com). This will push the site instanteneously, so be aware. If you understand how the deploy script works in both `master` and `gh-pages`, you can just do `rake deploy` without gheckout out `gh-pages`. If you get serious errors in deploy script, make sure you abort the script. The script will ask you before it pushes everything live.
