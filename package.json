@@ -1,0 +1,11 @@
+{
+    "name": "app.phonegap.com",
+    "version": "0.0.1",
+    "private": "true",
+    "dependencies": {
+        "node-sass": "0.8.1"
+    },
+    "scripts": {
+        "watch": "node-sass --include-path ./src/scss ./src/scss/master.scss --output ./css/master.css --output-style compressed --watch"
+    }
+}
