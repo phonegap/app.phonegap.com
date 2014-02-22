@@ -181,15 +181,19 @@ section {
 
 .primary {
     @include filler( $primary-color );
-    background-image: url(../images/background.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 10%;
 }
 
 .secondary {
     @include filler( $secondary-color );
 }
 
+.tertiary {
+    @include filler( $tertiary-color );
+}
+
+.quaternary {
+    @include filler( $quaternary-color );
+}
 .reverse {
     padding-left: 37.5%;
     padding-right: 0;
