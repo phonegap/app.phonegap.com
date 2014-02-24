@@ -130,7 +130,7 @@ section {
         min-height: 200px;
         padding: $pad 0;
         width: 55%;
-        padding-right: 25%;
+        text-align: center;
 
         .insert {
             position: absolute;
@@ -388,7 +388,6 @@ footer {
     
     section .wrap {
         width: $full-width - $padding;
-        padding-right: $padding;
 
         .insert.large { right: -5.5%;}
         &.reverse {
@@ -419,7 +418,6 @@ footer {
     
     section .wrap {
         width: $full-width - $padding;
-        padding-right: $padding;
 
         .insert.large { right: -2%;}
         &.reverse {
