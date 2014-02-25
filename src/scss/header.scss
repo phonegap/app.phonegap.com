@@ -1,8 +1,10 @@
 @import "mixins.scss";
 
 #header {
-    position: fixed;
-    height: $header-height;
+    position: relative;
+    height: auto;
+    padding-bottom: 10px;
+    text-align: center;
     background: $base-color;
     background: rgba(255,255,255,0.9);
     left: 0; right: 0; top: 0;
@@ -33,7 +35,10 @@
             width: 60px;
             height: 60px;
         }
-        float: left;
+        float: none;
+        display: inline-block;
+        margin-top: -6px;
+        height: 60px;
         line-height: 36px;
 
         .header {
@@ -44,12 +49,21 @@
     }
 
     nav {
-        float: right;
+        clear: both;
+        display: block;
+        float: none;
+        padding-top: 10px;
+        margin-top: -8px;
+        border-top: 1px solid #eee;
 
         a {
             margin-left: 40px;
             font-weight: 400;
-            font-size: 0.9em;
+            float: none;
+            font-size: 0.8em;
+            &:first-child {
+                margin-left: 0;
+            }
 
             &.selected {
                 border-bottom: 4px solid $primary-color;
@@ -57,6 +71,7 @@
         }
 
         .bt {
+            display: none;
             color: #fff;
             @include transition( background-color );
         }
