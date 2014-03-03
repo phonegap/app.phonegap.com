@@ -129,17 +129,16 @@ section {
         min-height: 200px;
         padding: $pad 0;
         width: 55%;
-        text-align: center;
 
         .insert {
             position: absolute;
             top: 60px;
             right: 0%;
             width: 33%;
-            max-width: 250px;
+
 
             &.large {
-                top: $pad/2;
+                top: 80px;
                 right: -12.5%;
                 width: 40%;
                 max-width: 400px;
@@ -148,13 +147,13 @@ section {
 
         &.reverse {
             padding-right: 0;
-            padding-left: 25%;
+            padding-left: 30%;
 
             .insert {
                 right: auto;
                 left: 0%;
 
-                &.large { left: -13%; }
+                &.large { left: -8%; }
             }
         }
 
@@ -176,6 +175,10 @@ section {
             min-height: 70px;
         }
     }
+}
+
+.hero {
+    @include filler( $hero-color );
 }
 
 .primary {
@@ -379,7 +382,7 @@ footer {
 
 @media all and (max-width:1150px) { 
     $full-width: 90%;
-    $padding: 31%;
+    $padding: 38%;
 
     .wrap {
         width: $full-width;
@@ -392,7 +395,7 @@ footer {
         &.reverse {
             padding-right: 0;
             padding-left: $padding;
-            .insert.large { left: -6%; }
+            .insert.large { left: -4%; }
         }
     }
 
@@ -418,35 +421,19 @@ footer {
     section .wrap {
         width: $full-width - $padding;
 
-        .insert.large { right: -2%;}
+        .insert{
+            position: relative;
+            max-height: 200px;
+            max-width: none;
+        }
+        
+        .insert.large { right: 0%;}
         &.reverse {
             padding-right: 0;
-            padding-left: $padding;
-            .insert.large { left: -2%; }
+            padding-left: 0;
+            .insert.large { left: 0%; top:-10%;}
+            
         }
-    }
-
-    .demo {
-        nav {
-            h3 {
-                font-size: 0.8em;
-            }
-
-            a {
-                height: 50px;
-                line-height: 50px;
-                font-size: 0.9em;
-                img {
-                    width: 50px;
-                    height: 50px;
-                }
-            }
-        }
-    }
-
-    .youtube-video {
-        width: 700px;
-        height: 456px;
     }
 
     footer {
@@ -458,15 +445,6 @@ footer {
         }
     }
 }
-
-
-@media all and (max-width:800px) { 
-    .youtube-video {
-        width: 100%;
-        height: 280px;
-    } 
-}
-
 
 @media all and (max-width:750px) { 
     $full-width: 95%;
@@ -521,13 +499,13 @@ footer {
 
         &.reverse {
             padding-left: 0;
+            .insert.large { left: 0%; top:-10%;}
         }
 
         .insert {
             position: relative;
             max-height: 200px;
             max-width: none;
-            display: none;
         }
 
         &.short {

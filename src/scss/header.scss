@@ -1,80 +1,33 @@
 @import "mixins.scss";
 
-#header {
+header {
+    width:100%;
+    background:#fff;
+    background-image: url(../images/bg_texture.jpg);
+
+}
+header a.home-link, header a.home-link:visited {
+    float:right;
+    margin-right:40px;
+    text-decoration:none;
+    color:#169fc7;
+    font-size:.85em;
+    line-height: 40px;
     position: relative;
-    height: auto;
-    padding-bottom: 10px;
-    text-align: center;
-    background: $base-color;
-    background: rgba(255,255,255,0.9);
-    left: 0; right: 0; top: 0;
-    z-index: 99;
+}
+header a.home-link:hover {
+    text-decoration: underline;
+}
 
-    &:after {
-        content: '';
-        position: absolute;
-        left: 0; bottom: -2px; right: 0;
-        border-bottom: 2px solid rgba(0,0,0,0.1);
-    }
+header a.home-link:before {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
 
-    .wrap {
-        padding: 28px 0 10px;
-    }
+    border: 4px solid transparent;
+    border-left-color: #169fc7;
 
-    a {
-        color: $font-color;
-        font-size: 1.0em;
-        @include transition( color )
-    }
-
-    .logo {
-        img {
-            float: left;
-            margin-top: -12px;
-            margin-left: -10px;
-            padding-right: 20px;
-            width: 60px;
-            height: 60px;
-        }
-        float: none;
-        display: inline-block;
-        margin-top: -6px;
-        height: 60px;
-        line-height: 36px;
-
-        .header {
-            letter-spacing: -.05em;
-            font-size: 2em;
-            font-weight: 300;
-        }
-    }
-
-    nav {
-        clear: both;
-        display: block;
-        float: none;
-        padding-top: 10px;
-        margin-top: -8px;
-        border-top: 1px solid #eee;
-
-        a {
-            margin-left: 40px;
-            font-weight: 400;
-            float: none;
-            font-size: 0.8em;
-            &:first-child {
-                margin-left: 0;
-            }
-
-            &.selected {
-                border-bottom: 4px solid $primary-color;
-            }
-        }
-
-        .bt {
-            display: none;
-            color: #fff;
-            @include transition( background-color );
-        }
-    }
+    top: 39%;
+    left: -10px;
 }
