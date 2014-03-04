@@ -505,7 +505,7 @@ footer {
         .insert {
             position: relative;
             max-height: 200px;
-            max-width: none;
+            max-width: 300px;
         }
 
         &.short {
@@ -567,7 +567,11 @@ footer {
     .primary {
         background-position: -340px -50px;
     }
-
+    
+    section .wrap {
+        .insert.large { max-width: 300px;}
+    }
+    
     footer {
         nav a {
             $icon-size: 40px;
