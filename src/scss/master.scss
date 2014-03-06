@@ -274,107 +274,6 @@ footer {
     }
 }
 
-#get-snap {
-    padding: 40px 0;
-    background: url(../images/background_2.svg) no-repeat -650px 0;
-
-    .wrap {
-        z-index: 2;
-    }
-
-    h2 {
-        margin-right: 20px;
-        display: inline-block;
-    }
-}
-
-.demo {
-    aside {
-        width: 25%;
-        float: left;
-    }
-
-    iframe {
-        width: 75%;
-        min-height: 300px;
-        border: none;
-        float: right;
-    }
-
-    nav {
-        padding: 0 0 30px;
-
-        h3 {
-            padding: 2px 8px;
-            font-size: 0.9em;
-            color: #fff;
-            text-align: left;
-            background: #9ea8af;
-            border-bottom: 1px solid #fff;
-        }
-
-        a {
-            position: relative;
-            color: $font-color;
-            display: block;
-            height: 80px;
-            line-height: 80px;
-            border-bottom: 1px solid #fff;
-            @include transition( background-color );
-
-            &:hover {
-                background-color: #eee;
-            }
-
-            img {
-                background: #fff;
-                float: left;
-                width: 80px;
-                height: 80px;
-            }
-
-            &.selected {
-                text-indent: 0;
-                padding-right: 8px;
-                background-color: $secondary-color;
-                color: #fff;
-            }
-
-            &.ext:after {
-                content: '';
-                background: url('../images/icon-external.svg');
-                background-size: cover;
-                display: inline-block;
-                width: 18px;
-                height: 18px;
-            }
-
-        }
-    }
-    text-align: center;
-}
-
-.video-container {
-    background: #333;
-    color: #fff;
-    padding: $pad 5% $pad;
-    text-align: center;
-
-    p {
-        color: #bbb;
-    }
-
-    a {
-        color: $secondary-color;
-    }
-}
-
-.youtube-video {
-    display: inline-block;
-    width: 800px;
-    height: 520px;
-}
-
 /* ----------------------------
     Responsive
  ------------------------------ */
@@ -423,7 +322,6 @@ footer {
 
         .insert{
             position: relative;
-            max-height: 200px;
             max-width: none;
         }
         
@@ -504,7 +402,6 @@ footer {
 
         .insert {
             position: relative;
-            max-height: 200px;
             max-width: 300px;
         }
 
@@ -569,8 +466,13 @@ footer {
     }
     
     section .wrap {
-        .insert.large { max-width: 300px;}
+        .insert.large img{ max-width: 300px;}
     }
+    
+    .secondary .wrap{
+        .insert.large img{ max-width: 95px; }
+     }
+    
     
     footer {
         nav a {
