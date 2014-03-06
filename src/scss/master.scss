@@ -213,43 +213,31 @@ section {
 @import "header.scss";
 
 footer {
-    clear: both;
-    min-height: 100px;
-    border-top: 1px solid #eee;
+    background:#333;
+    color:#fff;
+    font-size: 0.625rem;
+    font-weight: 100;
+    padding-top: 25px;
+}
+footer a{
+    color:#fff;
+}
+footer a:hover {
+    color:#169fc7;
+}
+.left, .right {
+    display:inline;
+    float:left;
+}
+.wrapper {
+    overflow:auto;
+    display:block;
+    padding-left: 40px;
+    width: 350px;
+}
 
-    .wrap {
-        padding: 40px 0;
-        font-size: 0.8em;
-        color: $sub-font-color;
-    }
-
-    nav {
-        $icon-size: 64px;
-        text-align: center;
-        a {
-            width: $icon-size;
-            height: $icon-size;
-            background-color: $sub-font-color;
-            @include transition( background-color );
-            display: inline-block;
-            margin: 0 70px;
-            @include background-size( cover );
-            overflow: hidden;
-            position: relative;
-
-            &.adobe-logo { background-image: url('../images/logo-adobe.svg')}
-            &.github-logo { background-image: url('../images/logo-github.svg')}
-            &.twitter-logo { background-image: url('../images/logo-twitter.svg')}
-            &.google-groups-logo { background-image: url('../images/logo-google-groups.svg')}
-
-            &:hover {
-                background-color: $primary-color;
-                &.twitter-logo {    background-color: #2ba9e1; }
-                &.adobe-logo {      background-color: #ed1c24; }
-                &.google-groups-logo{   background-color: #1b4eed; }
-            }
-        }
-    }
+.copyright {
+    padding-left: 10px;
 }
 
 
