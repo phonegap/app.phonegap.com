@@ -118,6 +118,10 @@ form {
     position: relative;
 }
 
+.description{
+    max-width: 550px;
+}
+
 .saw {
     @include saw( $base-color, 60px, 'right' );
 }

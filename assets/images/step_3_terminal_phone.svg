@@ -6,7 +6,7 @@
 	 xml:space="preserve">
 <g id="step_3_terminal">
 	<path fill="#F1F2F2" d="M233.5,0.2c3.7,0,6.7,3,6.7,6.7v16.4h-0.4H0.2V7c0-3.7,3-6.7,6.7-6.7L233.5,0.2L233.5,0.2z"/>
-	<path fill="#333333" d="M0.2,23.4h239.6h0.4v162.2c0,3.7-3,6.7-6.7,6.7H7c-3.7,0-6.7-3-6.7-6.7L0.2,23.4L0.2,23.4z"/>
+	<path fill="#222222" d="M0.2,23.4h239.6h0.4v162.2c0,3.7-3,6.7-6.7,6.7H7c-3.7,0-6.7-3-6.7-6.7L0.2,23.4L0.2,23.4z"/>
 </g>
 <g>
 	<text transform="matrix(1 0 0 1 7 43.2043)" fill="#FFFFFF" font-family="'Monaco'" font-size="14">$ phonegap create myApp</text>
