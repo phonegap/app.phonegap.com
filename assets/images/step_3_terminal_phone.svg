@@ -9,10 +9,10 @@
 	<path fill="#222222" d="M0.2,23.4h239.6h0.4v162.2c0,3.7-3,6.7-6.7,6.7H7c-3.7,0-6.7-3-6.7-6.7L0.2,23.4L0.2,23.4z"/>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 7 43.2043)" fill="#FFFFFF" font-family="'Monaco'" font-size="14">$ phonegap create myApp</text>
-	<text transform="matrix(1 0 0 1 7 60.0042)" fill="#FFFFFF" font-family="'Monaco'" font-size="14">$ cd myApp/</text>
-	<text transform="matrix(1 0 0 1 7 76.804)" fill="#FFFFFF" font-family="'Monaco'" font-size="14">$ phonegap server</text>
-	<text transform="matrix(1 0 0 1 7 93.6047)" fill="#FFFFFF" font-family="'Monaco'" font-size="14">listening on 127.0.0.1:3000</text>
+	<text transform="matrix(1 0 0 1 7 43.2043)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ phonegap create myApp</text>
+	<text transform="matrix(1 0 0 1 7 60.0042)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ cd myApp/</text>
+	<text transform="matrix(1 0 0 1 7 76.804)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ phonegap server</text>
+	<text transform="matrix(1 0 0 1 7 93.6047)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">listening on 127.0.0.1:3000</text>
 </g>
 <path fill="#EEEEEE" d="M303.4,146.6c0,3.1-2.5,5.7-5.7,5.7h-42.4c-3.1,0-5.7-2.5-5.7-5.7V44.3c0-3.1,2.5-5.7,5.7-5.7h42.4
 	c3.1,0,5.7,2.5,5.7,5.7V146.6z"/>
@@ -38,15 +38,15 @@
 		C294.2,103.7,295.5,98.2,295.5,91.6z"/>
 </g>
 <rect x="256.8" y="108.4" fill="#868687" width="40.2" height="6.1"/>
-<text transform="matrix(1 0 0 1 260.0352 85.9788)" fill="#00CAF9" font-family="'Monaco'" font-size="4">127.0.0.1:3000</text>
+<text transform="matrix(1 0 0 1 260.0352 85.9788)" fill="#00CAF9" font-family="'Monaco', Courier, monospace" font-size="4">127.0.0.1:3000</text>
 <path fill="#00CAF9" d="M291.2,101.2c0,0.5-0.4,0.9-0.9,0.9h-27.2c-0.5,0-0.9-0.4-0.9-0.9V97c0-0.5,0.4-0.9,0.9-0.9h27.3
 	c0.5,0,0.9,0.4,0.9,0.9L291.2,101.2L291.2,101.2z"/>
-<text transform="matrix(1 0 0 1 267.0898 100.7366)" fill="#15497C" font-family="'Monaco'" font-size="4.5738">Connect</text>
+<text transform="matrix(1 0 0 1 267.0898 100.7366)" fill="#15497C" font-family="'Monaco', Courier, monospace" font-size="4.5738">Connect</text>
 <circle fill="#0B2F47" stroke="#EE3551" stroke-width="4" stroke-miterlimit="10" cx="240.8" cy="167.8" r="59.5"/>
 <g>
-	<text transform="matrix(1 0 0 1 194.1445 148.1272)" fill="#00CAF9" font-family="'Monaco'" font-size="10.829">127.0.0.1:3000</text>
+	<text transform="matrix(1 0 0 1 194.1445 148.1272)" fill="#00CAF9" font-family="'Monaco', Courier, monospace" font-size="10.829">127.0.0.1:3000</text>
 	<path fill="#00CAF9" d="M278.6,189.2c0,1.4-1.1,2.5-2.5,2.5h-73.7c-1.4,0-2.5-1.1-2.5-2.5v-11.1c0-1.4,1.1-2.5,2.5-2.5h73.8
 		c1.4,0,2.5,1.1,2.5,2.5v11.1H278.6z"/>
-	<text transform="matrix(1 0 0 1 213.2432 188.0784)" fill="#15497C" font-family="'Monaco'" font-size="12.3824">Connect</text>
+	<text transform="matrix(1 0 0 1 213.2432 188.0784)" fill="#15497C" font-family="'Monaco', Courier, monospace" font-size="12.3824">Connect</text>
 </g>
 </svg>

@@ -10,17 +10,17 @@
 	<path fill="#222222" d="M0.282,23.4v162.2c0,3.7,2.465,6.7,5.506,6.7h186.155c3.041,0,5.507-3,5.507-6.7V23.4h-0.329H0.282z"/>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 56.8184 16.2043)" font-family="'Monaco'" font-size="14">index.html</text>
+	<text transform="matrix(1 0 0 1 56.8184 16.2043)" font-family="'Monaco', Courier, monospace" font-size="14">index.html</text>
 </g>
 <rect x="-0.247" y="23.3" fill="#545051" width="14.395" height="169"/>
 <rect x="190.75" y="155.3" fill="#222222" width="6.7" height="37"/>
 <g>
 	<g>
-		<text transform="matrix(1 0 0 1 20.5 41.2043)" fill="#EE3551" font-family="'Monaco'" font-size="14">&lt;html&gt;</text>
-		<text transform="matrix(1 0 0 1 20.5 108.4045)" fill="#EE3551" font-family="'Monaco'" font-size="14">&lt;/html&gt;</text>
+		<text transform="matrix(1 0 0 1 20.5 41.2043)" fill="#EE3551" font-family="'Monaco', Courier, monospace" font-size="14">&lt;html&gt;</text>
+		<text transform="matrix(1 0 0 1 20.5 108.4045)" fill="#EE3551" font-family="'Monaco', Courier, monospace" font-size="14">&lt;/html&gt;</text>
 	</g>
-	<text transform="matrix(1 0 0 1 75 74.804)" fill="#FFFFFF" font-family="'Monaco'" font-size="14">Hello world!</text>
-	<text transform="matrix(1 0 0 1 50 57.0042)" fill="#EE3551" font-family="'Monaco'" font-size="14">&lt;body&gt;</text>
-	<text transform="matrix(1 0 0 1 50 90.6047)" fill="#EE3551" font-family="'Monaco'" font-size="14">&lt;/body&gt;</text>
+	<text transform="matrix(1 0 0 1 75 74.804)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">Hello world!</text>
+	<text transform="matrix(1 0 0 1 50 57.0042)" fill="#EE3551" font-family="'Monaco', Courier, monospace" font-size="14">&lt;body&gt;</text>
+	<text transform="matrix(1 0 0 1 50 90.6047)" fill="#EE3551" font-family="'Monaco', Courier, monospace" font-size="14">&lt;/body&gt;</text>
 </g>
 </svg>

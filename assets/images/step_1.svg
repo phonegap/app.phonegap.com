@@ -10,6 +10,6 @@
         </g>
 </g>
 <g id="step_1_text">
-    <text transform="matrix(1 0 0 1 7 43.2041)" fill="#FFFFFF" font-family="'Monaco'" font-size="14">$ npm install phonegap -g</text>
+    <text transform="matrix(1 0 0 1 7 43.2041)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ npm install phonegap -g</text>
 </g>
 </svg>

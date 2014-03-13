@@ -30,14 +30,14 @@
     <path fill="#15497C" d="M80.2,121.9c0,3.9-3.1,7-7,7H20.8c-3.9,0-7-3.1-7-7V69.4c0-3.9,3.1-7,7-7h52.5c3.9,0,7,3.1,7,7V121.9z"/>
 </g>
 <g>
-    <text transform="matrix(1 0 0 1 21.7954 88.2759)" fill="#00CAF9" font-family="'Monaco'" font-size="6">127.0.0.1:3000</text>
+    <text transform="matrix(1 0 0 1 21.7954 88.2759)" fill="#00CAF9" font-family="'Monaco', Courier, monospace" font-size="6">127.0.0.1:3000</text>
     <path fill="none" stroke="#00CAF9" stroke-miterlimit="10" d="M79,86.4c0,3.6-2.9,6.5-6.5,6.5h-51c-3.6,0-6.5-2.9-6.5-6.5l0,0
         c0-3.6,2.9-6.5,6.5-6.5h51C76.1,79.9,79,82.9,79,86.4L79,86.4z"/>
     <path fill="#00CAF9" d="M72.4,117c0,0.9-0.7,1.6-1.6,1.6H23.2c-0.9,0-1.6-0.7-1.6-1.6v-7.2c0-0.9,0.7-1.6,1.6-1.6h47.7
         c0.9,0,1.6,0.7,1.6,1.6V117z"/>
 </g>
 <g>
-    <text transform="matrix(1 0 0 1 30.1978 116.2749)" fill="#15497C" font-family="'Monaco'" font-size="8">Connect</text>
+    <text transform="matrix(1 0 0 1 30.1978 116.2749)" fill="#15497C" font-family="'Monaco', Courier, monospace" font-size="8">Connect</text>
 </g>
 <g>
     <circle fill="#666666" stroke="#222222" stroke-width="0.5" stroke-miterlimit="10" cx="47" cy="186.9" r="7.7"/>

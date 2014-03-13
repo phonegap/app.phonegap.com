@@ -8,6 +8,6 @@
     <path fill="#333333" d="M0.2,23.4h239.6h0.4v162.2c0,3.7-3,6.7-6.7,6.7H7c-3.7,0-6.7-3-6.7-6.7V23.4z"/>
 </g>
 <g>
-    <text transform="matrix(1 0 0 1 7 43.2041)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Monaco'" font-size="14">$ phonegap create myApp</tspan><tspan x="0" y="16.8" fill="#FFFFFF" font-family="'Monaco'" font-size="14">$ cd myApp/</tspan><tspan x="0" y="33.6" fill="#FFFFFF" font-family="'Monaco'" font-size="14">$ phonegap server</tspan><tspan x="0" y="50.4" fill="#FFFFFF" font-family="'Monaco'" font-size="14">listening on 127.0.0.1:3000</tspan></text>
+    <text transform="matrix(1 0 0 1 7 43.2041)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ phonegap create myApp</tspan><tspan x="0" y="16.8" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ cd myApp/</tspan><tspan x="0" y="33.6" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ phonegap server</tspan><tspan x="0" y="50.4" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">listening on 127.0.0.1:3000</tspan></text>
 </g>
 </svg>
