@@ -118,10 +118,6 @@ form {
     position: relative;
 }
 
-.description{
-    max-width: 550px;
-}
-
 .saw {
     @include saw( $base-color, 60px, 'right' );
 }
@@ -133,7 +129,9 @@ section {
         min-height: 200px;
         padding: $pad 0;
         width: 55%;
-
+        padding-left: 0;
+        padding-right: 30%;
+        
         .insert {
             position: absolute;
             top: 60px;
@@ -281,7 +279,9 @@ footer a:hover {
     
     section .wrap {
         width: $full-width - $padding;
-
+        padding-left: 0;
+        padding-right: $padding;
+        
         .insert.large { right: -5.5%;}
         &.reverse {
             padding-right: 0;
@@ -317,7 +317,7 @@ footer a:hover {
             max-width: none;
         }
         
-        .insert.large { right: 0%;}
+        .insert.large { right: 0%; top:-10%;}
         &.reverse {
             padding-right: 0;
             padding-left: 0;
