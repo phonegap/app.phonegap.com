@@ -311,7 +311,9 @@ footer a:hover {
     
     section .wrap {
         width: $full-width - $padding;
-
+        padding-right: 0;
+        padding-left: 0;
+            
         .insert{
             position: relative;
             max-width: none;
