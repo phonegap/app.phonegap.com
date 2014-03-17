@@ -11,7 +11,7 @@
 <g>
 	<text transform="matrix(1 0 0 1 7 43.2043)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ phonegap create myApp</text>
 	<text transform="matrix(1 0 0 1 7 60.0042)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ cd myApp/</text>
-	<text transform="matrix(1 0 0 1 7 76.804)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ phonegap server</text>
+	<text transform="matrix(1 0 0 1 7 76.804)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ phonegap serve</text>
 	<text transform="matrix(1 0 0 1 7 93.6047)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">listening on 127.0.0.1:3000</text>
 </g>
 <path fill="#EEEEEE" d="M303.4,146.6c0,3.1-2.5,5.7-5.7,5.7h-42.4c-3.1,0-5.7-2.5-5.7-5.7V44.3c0-3.1,2.5-5.7,5.7-5.7h42.4
