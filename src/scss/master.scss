@@ -136,13 +136,10 @@ section {
             position: absolute;
             top: 60px;
             right: 0%;
-            width: 33%;
 
 
             &.large {
                 top: 80px;
-                right: -12.5%;
-                width: 100%;
                 max-width: 400px;
             }
         }
@@ -155,7 +152,7 @@ section {
                 right: auto;
                 left: 0%;
 
-                &.large { left: -8%; }
+                &.large { left: 0%; }
             }
         }
 
@@ -282,11 +279,11 @@ footer a:hover {
         padding-left: 0;
         padding-right: $padding;
         
-        .insert.large { right: -5.5%;}
+        .insert.large { right: 0%;}
         &.reverse {
             padding-right: 0;
             padding-left: $padding;
-            .insert.large { left: -4%; }
+            .insert.large { left: 0%; }
         }
     }
 
