@@ -4,6 +4,8 @@ header {
     width:100%;
     background:#333;
     color: #fff;
+    background-image: url(../assets/images/bg_texture.jpg);
+    background-repeat: repeat-x;
 }
 header a.home-link, header a.home-link:visited {
     float:right;
