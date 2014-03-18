@@ -218,7 +218,7 @@ footer a{
     color:#fff;
 }
 footer a:hover {
-    color:#169fc7;
+    color:#fff;
 }
 .left, .right {
     display:inline;
@@ -339,7 +339,7 @@ footer a:hover {
     $full-width: 95%;
 
     .mobile-hide {
-        display: none
+        display: none;
     }
 
     body {
@@ -464,6 +464,9 @@ footer a:hover {
         .insert.large img{ max-width: 95px; }
      }
     
+    .home-link{
+        display: none;
+    }
     
     footer {
         nav a {
@@ -473,8 +476,4 @@ footer a:hover {
             height: $icon-size;
         }
     }
-}
-
-.mike {
-    color:black;
 }
