@@ -1,0 +1,46 @@
+
+#features {
+    background:#27a1c5;
+    color:#fff;
+    padding:0 0 95px 0;
+    position:relative;
+}
+#features h2 {
+    margin:0;
+    text-transform:uppercase;
+    font-size:2.143rem;
+    padding-top:80px;
+}
+
+/**** Setting h2 font to resize with viewport ****/
+
+ 
+@media screen and (max-width: 55em) {
+    #features h2 {
+        font-size:1.5rem;
+    }
+}
+
+/* Font resetting for h2 done */
+
+#features h3 {
+    text-transform:uppercase;
+    font-size:1.1875rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+#features p {
+    text-align:center;
+    padding:0 25px 0 25;
+    font-size:1.0rem;
+    font-weight: 100;
+}
+
+#features img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 280px;
+  padding-top: 45px;
+}

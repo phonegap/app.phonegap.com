@@ -1,0 +1,170 @@
+body {
+    margin:0;
+    padding:0;
+}
+* {
+    box-sizing: border-box;
+    font-family: "adobe-clean", sans-serif;
+}
+*:focus {
+    outline: 0;
+}
+body {
+    margin:0;
+    padding:0;
+    font-size:100%;
+}
+header {
+    height: 40px;
+    background:#fff;
+    background-image: url(../assets/images/bg_texture.jpg);
+    background-repeat: repeat-x;
+    padding-left: 25px;
+}
+img.header {
+  padding-top: 5px;
+  border: 0;
+}
+header a.home-link, header a.home-link:visited {
+    margin-right:30px;
+    text-decoration:none;
+    color:#169fc7;
+    font-size:0.75rem;
+    line-height: 40px;
+    position: relative;
+}
+header a.home-link:hover {
+    text-decoration: underline;
+}
+header a.home-link:before {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+
+    border: 4px solid transparent;
+    border-left-color: #169fc7;
+
+    top: 39%;
+    left: -10px;
+}
+h2, h3, h4 {
+    display:block;
+    text-align:center;
+    line-height: 1em;
+}
+h3 {
+    line-height: 1em;
+}
+
+h4 {
+    color:#ccc;
+}
+label,
+input,
+textarea {
+    display:block;
+    resize: none;
+}
+label {
+    padding-bottom: 0.4rem;
+}
+input[type=text], input[type=email], textarea {
+    width:100%;
+    padding:12px;
+    border:0px;
+    border-radius:22px;
+    margin-bottom:25px;
+    font-size: 1.0rem;
+    font-weight: 100;
+}
+input[type=submit] {
+    float:right;
+    border:none;
+}
+.main-btn, .tricky-btn, .submit-btn {
+    font-size:1.25rem;
+    font-weight: 400;
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration:none;
+    background:#27a1c5;
+    padding:19px 25px 19px 25px;
+    border-radius:6px;
+    letter-spacing:1px;
+    display:inline-block;
+    margin:12px 0 20px 0;
+    text-shadow:0px 1px 0px #006889;
+    cursor: hand;
+    -webkit-transition: background-color,.35s;
+    transition: background-color,.35s;
+    -webkit-appearance: none;
+}
+.main-btn:hover, .tricky-btn:hover, .submit-btn:hover {
+    text-transform:uppercase;
+    text-decoration:none;
+    background:#ee3551;
+    text-shadow:none;
+}
+
+/**** Setting .main-btn and .submit-btn font to resize with viewport ****/
+
+@media screen and (max-width: 62em) {
+    .main-btn, .submit-btn {
+        font-size:1.0rem;
+    }
+}
+
+@media screen and (max-width: 55em) {
+    .main-btn, .submit-btn {
+        font-size:1.0rem;
+        padding:18px 22px 18px 22px;
+    }
+}
+ 
+@media screen and (max-width: 48em) {
+    .main-btn {
+        display:none;
+    }
+}
+
+/* Font resetting for buttons done */
+footer {
+    background:#333;
+    color:#fff;
+    font-size: 0.625rem;
+    font-weight: 100;
+    padding-top: 25px;
+}
+footer a{
+    color:#fff;
+}
+footer a:hover {
+    color:#169fc7;
+}
+.left, .right {
+    display:inline;
+    float:left;
+}
+.wrapper {
+    overflow:auto;
+    display:block;
+    padding-left: 40px;
+    width: 350px;
+}
+
+/**** Setting .wrapper for smallest viewport ****/
+
+ 
+@media screen and (max-width: 48em) {
+    .wrapper {
+        padding-left: 20px;
+    }
+}
+
+/* Font resetting for buttons done */
+
+.copyright {
+    padding-left: 10px;
+}
+
