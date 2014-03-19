@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="336.2px" height="192.1px" viewBox="-0.2 -1.5 336.2 192.1" enable-background="new -0.2 -1.5 336.2 192.1"
+	 xml:space="preserve">
+<g>
+	<g>
+		<path fill="#F1F2F2" d="M233.1-1.5L233.1-1.5L6.5-1.4c-3.7,0-6.7,3-6.7,6.7v16.3h239.6h0.4V5.1C239.8,1.5,236.8-1.5,233.1-1.5z"/>
+		<path fill="#222222" d="M-0.1,21.6v162.2c0,3.7,3,6.7,6.7,6.7h226.5c3.7,0,6.7-3,6.7-6.7V21.6h-0.4H-0.1z"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 56.8184 14.4543)" font-family="'Monaco', Courier, monospace" font-size="14">index.html</text>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 20.5 39.4543)" fill="#EE3551" font-family="'Monaco', Courier, monospace" font-size="14">&lt;html&gt;</text>
+			<text transform="matrix(1 0 0 1 20.5 106.6545)" fill="#EE3551" font-family="'Monaco', Courier, monospace" font-size="14">&lt;/html&gt;</text>
+		</g>
+		<text transform="matrix(1 0 0 1 75 73.054)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">Hello world!</text>
+		<text transform="matrix(1 0 0 1 50 55.2542)" fill="#EE3551" font-family="'Monaco', Courier, monospace" font-size="14">&lt;body&gt;</text>
+		<text transform="matrix(1 0 0 1 50 88.8547)" fill="#EE3551" font-family="'Monaco', Courier, monospace" font-size="14">&lt;/body&gt;</text>
+	</g>
+	<path fill="#545051" d="M-0.2,21.6v9.9v149.8v4.5c0,2.7,2.2,4.9,5,4.9h4.1h0.3h5v-4.9v-4.5v-46.1V31.4v-9.9H-0.2z"/>
+</g>
+<g>
+	<g id="step_4_iphone">
+		<path fill="#EEEEEE" d="M336,180.9c0,5.3-4.2,9.6-9.5,9.6h-71c-5.3,0-9.5-4.2-9.5-9.6V8c0-5.3,4.2-9.6,9.5-9.6h71
+			c5.3,0,9.5,4.2,9.5,9.6V180.9z"/>
+	</g>
+	<path fill="#FFFFFF" d="M331.1,162.6c0,1.1-0.9,1.9-1.9,1.9h-76.4c-1.1,0-1.9-0.9-1.9-1.9V23.9c0-1.1,0.9-1.9,1.9-1.9h76.4
+		c1.1,0,1.9,0.9,1.9,1.9L331.1,162.6L331.1,162.6z"/>
+	<g>
+		<text transform="matrix(0.9918 0 0 1 252.5303 34.4333)" font-family="'Arial', sans-serif" font-size="11.5837">Hello world!</text>
+	</g>
+	<g>
+		<ellipse fill="#666666" cx="291" cy="178.9" rx="7.4" ry="7.4"/>
+	</g>
+</g>
+</svg>

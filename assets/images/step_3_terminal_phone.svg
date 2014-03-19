@@ -2,51 +2,37 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="303.2px" height="229.1px" viewBox="0.2 0.2 303.2 229.1" enable-background="new 0.2 0.2 303.2 229.1"
-	 xml:space="preserve">
+	 width="335.8px" height="192.3px" viewBox="0.2 0 335.8 192.3" enable-background="new 0.2 0 335.8 192.3" xml:space="preserve">
 <g id="step_3_terminal">
 	<path fill="#F1F2F2" d="M233.5,0.2c3.7,0,6.7,3,6.7,6.7v16.4h-0.4H0.2V7c0-3.7,3-6.7,6.7-6.7L233.5,0.2L233.5,0.2z"/>
-	<path fill="#222222" d="M0.2,23.4h239.6h0.4v162.2c0,3.7-3,6.7-6.7,6.7H7c-3.7,0-6.7-3-6.7-6.7L0.2,23.4L0.2,23.4z"/>
+	<path fill="#333333" d="M0.2,23.4h239.6h0.4v162.2c0,3.7-3,6.7-6.7,6.7H7c-3.7,0-6.7-3-6.7-6.7L0.2,23.4L0.2,23.4z"/>
 </g>
 <g>
 	<text transform="matrix(1 0 0 1 7 43.2043)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ phonegap create myApp</text>
 	<text transform="matrix(1 0 0 1 7 60.0042)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ cd myApp/</text>
-	<text transform="matrix(1 0 0 1 7 76.804)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ phonegap serve</text>
+	<text transform="matrix(1 0 0 1 7 76.804)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">$ phonegap server</text>
 	<text transform="matrix(1 0 0 1 7 93.6047)" fill="#FFFFFF" font-family="'Monaco', Courier, monospace" font-size="14">listening on 127.0.0.1:3000</text>
 </g>
-<path fill="#EEEEEE" d="M303.4,146.6c0,3.1-2.5,5.7-5.7,5.7h-42.4c-3.1,0-5.7-2.5-5.7-5.7V44.3c0-3.1,2.5-5.7,5.7-5.7h42.4
-	c3.1,0,5.7,2.5,5.7,5.7V146.6z"/>
-<line fill="none" x1="302.1" y1="83.3" x2="248.4" y2="137"/>
-<line fill="none" x1="302.4" y1="108.5" x2="269.6" y2="141.3"/>
 <g>
-	<path fill="#A8A8A8" d="M300.7,110.6v25.2c0,0.6-0.5,1.1-1.1,1.1h-25.2L300.7,110.6z"/>
-	<polygon fill="#A8A8A8" points="300.7,94.6 300.7,110.6 274.4,136.9 258.3,136.9 	"/>
-	<path fill="#A8A8A8" d="M300.7,53.6v40.9l-42.4,42.4h-4.9c-0.6,0-1.1-0.5-1.1-1.1V84.4l0.1-0.1l31.8-31.8h15.3
-		C300.2,52.5,300.7,53,300.7,53.6z"/>
-	<polygon fill="#A8A8A8" points="284.2,52.5 252.5,84.3 252.3,84.4 252.3,75.1 274.9,52.5 	"/>
-	<path fill="#A8A8A8" d="M274.9,52.5l-22.6,22.6V53.6c0-0.6,0.5-1.1,1.1-1.1H274.9z"/>
-</g>
-<path fill="#D6D6D6" d="M300.5,136c0,0.6-0.5,1.1-1.1,1.1h-45.6c-0.6,0-1.1-0.5-1.1-1.1V53.9c0-0.6,0.5-1.1,1.1-1.1h45.6
-	c0.6,0,1.1,0.5,1.1,1.1V136z"/>
-<circle fill="#666666" stroke="#222222" stroke-width="0.5" stroke-miterlimit="10" cx="276.5" cy="145.4" r="4.4"/>
-<polygon fill="#B5B5B5" points="297,108.8 297,108.8 256.7,108.8 256.7,108.8 256.7,72.5 256.7,72.5 297,72.5 297,72.5 "/>
-<g>
-	<path fill="#6D6D6D" d="M296,90.6c0-7-1.3-12.8-3-14.1c-0.4-1.8-7.5-3.2-16.1-3.2c-8.7,0-15.7,1.4-16.1,3.2c-1.7,1.3-3,7.1-3,14.1
-		c0,7,1.3,12.8,3,14.1c0.4,1.8,7.5,3.2,16.1,3.2c8.7,0,15.7-1.4,16.1-3.2C294.7,103.4,296,97.6,296,90.6z"/>
-	<path fill="#0B2F47" d="M295.5,91.6c0-6.6-1.3-12.1-2.9-13.3c-0.4-1.7-7.3-3-15.7-3c-8.4,0-15.3,1.3-15.7,3
-		c-1.7,1.2-2.9,6.7-2.9,13.3c0,6.6,1.3,12.1,2.9,13.3c0.4,1.7,7.3,3,15.7,3c8.4,0,15.3-1.3,15.7-3
-		C294.2,103.7,295.5,98.2,295.5,91.6z"/>
-</g>
-<rect x="256.8" y="108.4" fill="#868687" width="40.2" height="6.1"/>
-<text transform="matrix(1 0 0 1 260.0352 85.9788)" fill="#00CAF9" font-family="'Monaco', Courier, monospace" font-size="4">127.0.0.1:3000</text>
-<path fill="#00CAF9" d="M291.2,101.2c0,0.5-0.4,0.9-0.9,0.9h-27.2c-0.5,0-0.9-0.4-0.9-0.9V97c0-0.5,0.4-0.9,0.9-0.9h27.3
-	c0.5,0,0.9,0.4,0.9,0.9L291.2,101.2L291.2,101.2z"/>
-<text transform="matrix(1 0 0 1 267.0898 100.7366)" fill="#15497C" font-family="'Monaco', Courier, monospace" font-size="4.5738">Connect</text>
-<circle fill="#0B2F47" stroke="#EE3551" stroke-width="4" stroke-miterlimit="10" cx="240.8" cy="167.8" r="59.5"/>
-<g>
-	<text transform="matrix(1 0 0 1 194.1445 148.1272)" fill="#00CAF9" font-family="'Monaco', Courier, monospace" font-size="10.829">127.0.0.1:3000</text>
-	<path fill="#00CAF9" d="M278.6,189.2c0,1.4-1.1,2.5-2.5,2.5h-73.7c-1.4,0-2.5-1.1-2.5-2.5v-11.1c0-1.4,1.1-2.5,2.5-2.5h73.8
-		c1.4,0,2.5,1.1,2.5,2.5v11.1H278.6z"/>
-	<text transform="matrix(1 0 0 1 213.2432 188.0784)" fill="#15497C" font-family="'Monaco', Courier, monospace" font-size="12.3824">Connect</text>
+	<path fill="#EEEEEE" d="M336,182.2c0,5.2-4.2,9.6-9.6,9.6h-71.5c-5.2,0-9.6-4.2-9.6-9.6V9.6c0-5.2,4.2-9.6,9.6-9.6h71.5
+		c5.2,0,9.6,4.2,9.6,9.6V182.2z"/>
+	<path fill="#D6D6D6" d="M331.1,164.3c0,1-0.8,1.9-1.9,1.9h-76.9c-1,0-1.9-0.8-1.9-1.9V25.8c0-1,0.8-1.9,1.9-1.9h76.9
+		c1,0,1.9,0.8,1.9,1.9V164.3z"/>
+	<circle fill="#666666" cx="290.6" cy="180.1" r="7.4"/>
+	<polygon fill="#B5B5B5" points="331.1,123.8 331.1,123.8 250.4,123.8 250.4,123.8 250.4,51.1 250.4,51.1 331.1,51.1 331.1,51.1 	
+		"/>
+	<g>
+		<path fill="#6D6D6D" d="M329.1,87.4c0-14-2.6-25.6-6-28.2c-0.8-3.6-15-6.4-32.2-6.4c-17.4,0-31.4,2.8-32.2,6.4
+			c-3.4,2.6-6,14.2-6,28.2c0,14,2.6,25.6,6,28.2c0.8,3.6,15,6.4,32.2,6.4c17.4,0,31.4-2.8,32.2-6.4
+			C326.5,113,329.1,101.4,329.1,87.4z"/>
+		<path fill="#0B2F47" d="M328.1,89.4c0-13.2-2.6-24.2-5.8-26.6c-0.8-3.4-14.6-6-31.4-6s-30.6,2.6-31.4,6
+			c-3.4,2.4-5.8,13.4-5.8,26.6c0,13.2,2.6,24.2,5.8,26.6c0.8,3.4,14.6,6,31.4,6s30.6-2.6,31.4-6C325.5,113.6,328.1,102.6,328.1,89.4
+			z"/>
+	</g>
+	<rect x="250.6" y="123" fill="#868687" width="80.5" height="12.2"/>
+	<text transform="matrix(1 0 0 1 256.8687 79.9143)" fill="#00CAF9" font-family="'Monaco', Courier, monospace" font-size="8">127.0.0.1:3000</text>
+	<path fill="#00CAF9" d="M315.4,105.6c0,0.8-0.7,1.5-1.5,1.5H268c-0.8,0-1.5-0.7-1.5-1.5v-7.1c0-0.8,0.7-1.5,1.5-1.5h46
+		c0.8,0,1.5,0.7,1.5,1.5L315.4,105.6L315.4,105.6z"/>
+	<text transform="matrix(1 0 0 1 274.7681 104.8059)" fill="#15497C" font-family="'Monaco', Courier, monospace" font-size="7.7146">Connect</text>
 </g>
 </svg>
