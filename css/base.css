@@ -49,11 +49,6 @@ header a.home-link:before {
     left: -10px;
 }
 h2, h3, h4 {
-    display:block;
-    text-align:center;
-    line-height: 1em;
-}
-h3 {
     line-height: 1em;
 }
 
