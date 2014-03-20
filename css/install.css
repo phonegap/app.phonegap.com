@@ -1,11 +1,27 @@
 #install {
     background:#6fc8e3;
     padding:80px 0 80px 0;
+    position: relative;
+}
+
+#install:after {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+
+    border: 30px solid transparent;
+    border-top-color: #6fc8e3;
+
+    top: 100%;
+    left: 50%;
+
+    margin-left: -25px;
+    z-index: 2;
 }
 
 #install h2 {
     font-size:2.143rem;
-    line-height: 0.1rem;
 }
 
 /**** Setting h2 font to resize with viewport ****/
