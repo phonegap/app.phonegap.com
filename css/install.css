@@ -40,7 +40,7 @@
 
  
 @media screen and (max-width: 48em) {
-    #install h2 {
+#install h2 {
         font-size:1.5rem;
         text-align: center;
     }
@@ -69,3 +69,13 @@
 #install img {
   max-height: 220px;
 }
+
+/**** Setting install image to scale with small ****/
+
+@media screen and (max-width: 57em) {
+#install img {
+        max-height: 180px;
+    }
+}
+
+/* Image reset done */

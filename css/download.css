@@ -4,7 +4,7 @@
     position: relative;
 }
 
-#download:before {
+#download:after {
     content: ' ';
     height: 0;
     position: absolute;
@@ -20,6 +20,17 @@
     z-index: 2;
 }
 
+/**** Setting container padding to resize with viewport ****/
+
+ 
+@media screen and (max-width: 48em) {
+#download {
+        padding: 60px 0 30px 0;
+    }
+}
+
+/* Padding resetting for container done */
+
 #download h2 {
     font-size:1.9rem;
     padding-left: 30px;
@@ -30,8 +41,10 @@
 
  
 @media screen and (max-width: 55em) {
-    #download h2 {
-        font-size:1.5rem;
+#download h2 {
+    font-size:1.5rem;
+    text-align: center;
+    padding-left: 0;
     }
 }
 
@@ -43,6 +56,29 @@
     vertical-align: text-top;
 }
 
+/**** Setting p font to resize with viewport ****/
+
+ 
+@media screen and (max-width: 48em) {
+#download p {
+        text-align: center;
+        padding: 0;
+        font-size: 1.0rem;
+    }
+}
+
+/* Font resetting for p done */
+
 #download img {
   max-height: 220px;
 }
+
+/**** Setting download image to scale with small ****/
+
+@media screen and (max-width: 57em) {
+#download img {
+        max-height: 120px;
+    }
+}
+
+/* Image reset done */
