@@ -1,5 +1,5 @@
 #pair {
-    background:#6fc8e3;
+    background:#27a1c5;
     padding:80px 0 80px 0;
 }
 
@@ -19,9 +19,8 @@
 /* Font resetting for h2 done */
 
 #pair p {
-    padding:0 25px 0 25;
-    font-size:1.0rem;
-    font-weight: 100;
+    padding:0 30px 0 0;
+    vertical-align: text-top;
 }
 
 #pair img {
