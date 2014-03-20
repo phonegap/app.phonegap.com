@@ -3,26 +3,53 @@
     padding:80px 0 80px 0;
 }
 
+/**** Setting container padding to resize with viewport ****/
+
+ 
+@media screen and (max-width: 48em) {
+#power {
+        padding: 40px 0 30px 0;
+    }
+}
+
+/* Padding resetting for container done */
+
 #power h2 {
-    font-size:2.143rem;
+    font-size:1.9rem;
+    padding-left: 30px;
+    line-height: 1.5rem;
 }
 
 /**** Setting h2 font to resize with viewport ****/
 
  
 @media screen and (max-width: 55em) {
-    #power h2 {
-        font-size:1.5rem;
+#power h2 {
+    font-size:1.5rem;
+    text-align: center;
+    padding-left: 0;
     }
 }
 
 /* Font resetting for h2 done */
 
 #power p {
-    padding:0 25px 0 25;
-    font-size:1.0rem;
-    font-weight: 100;
+    padding:0 0 0 30px;
+    vertical-align: text-top;
 }
+
+/**** Setting p font to resize with viewport ****/
+
+ 
+@media screen and (max-width: 48em) {
+#power p {
+    text-align: center;
+    padding: 0;
+    font-size: 1.0rem;
+    }
+}
+
+/* Font resetting for p done */
 
 #power img {
   max-height: 220px;

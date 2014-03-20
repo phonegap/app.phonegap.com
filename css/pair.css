@@ -1,10 +1,40 @@
 #pair {
-    background:#6fc8e3;
+    background:#27a1c5;
     padding:80px 0 80px 0;
+    position: relative;
+
 }
 
+#pair:before {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+
+    border: 30px solid transparent;
+    border-top-color: #27a1c5;
+
+    top: 100%;
+    left: 50%;
+
+    margin-left: -25px;
+    z-index: 2;
+}
+
+/**** Setting container padding to resize with viewport ****/
+
+ 
+@media screen and (max-width: 48em) {
+#pair {
+        padding: 40px 0 30px 0;
+    }
+}
+
+/* Padding resetting for container done */
+
 #pair h2 {
-    font-size:2.143rem;
+    font-size:1.9rem;
+    line-height: 1.5rem;
 }
 
 /**** Setting h2 font to resize with viewport ****/
@@ -13,17 +43,40 @@
 @media screen and (max-width: 55em) {
     #pair h2 {
         font-size:1.5rem;
+        text-align: center;
     }
 }
 
 /* Font resetting for h2 done */
 
 #pair p {
-    padding:0 25px 0 25;
-    font-size:1.0rem;
-    font-weight: 100;
+    padding:0 30px 0 0;
+    vertical-align: text-top;
 }
 
-#pair img {
-  max-height: 220px;
+/**** Setting p font to resize with viewport ****/
+
+ 
+@media screen and (max-width: 48em) {
+#pair p {
+        text-align: center;
+        padding: 0;
+        font-size: 1.0rem;
+    }
 }
+
+/* Font resetting for p done */
+
+#pair img {
+  max-height: 260px;
+}
+
+/**** Setting install image to scale with small ****/
+
+@media screen and (max-width: 57em) {
+#pair img {
+        max-height: 180px;
+    }
+}
+
+/* Image reset done */

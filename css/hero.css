@@ -1,7 +1,23 @@
-
 #hero {
     background:#2d3033;
-    padding-top: 30px;
+    padding: 30px 0 0 0;
+    position: relative;
+}
+
+#hero:after {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+
+    border: 30px solid transparent;
+    border-top-color: #2d3033;
+
+    top: 100%;
+    left: 50%;
+
+    margin-left: -25px;
+    z-index: 2;
 }
 
 #hero h1 {
@@ -35,18 +51,19 @@
 /* Font resetting for h1 done */
 
 #hero h2 {
-    font-size:1.7rem;
-    color:#fff;
+    font-size:1.5rem;
+    color:#dedede;
     font-weight: 100;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
+    line-height: 1.4rem;
 }
 
 /**** Setting h2 font to resize with viewport ****/
 
 @media screen and (max-width: 62em) {
     #hero h2 {
-        font-size:1.6rem;
+        font-size:1.3rem;
         padding-bottom: 20px;
 
     }
@@ -54,32 +71,32 @@
  
 @media screen and (max-width: 57em) {
     #hero h2 {
-        font-size:1.3rem;
+        font-size:1.2rem;
     }
 }
 
 /* Font resetting for h2 done */
 
 #hero p {
-    font-size:1.5rem;
-    color:#d0d0d0;
-    line-height: 1.23em;
+    font-size:1.3rem;
+    color:#fff;
+    line-height: 1.5em;
     font-weight: 100;
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding-bottom: 20px;
 }
 
 /**** Setting p font to resize with viewport ****/
 
 @media screen and (max-width: 62em) {
     #hero p {
-        font-size:1.3rem;
+        font-size:1.1rem;
     }
 }
  
 @media screen and (max-width: 57em) {
     #hero p {
-        font-size:1.1rem;
+        font-size:0.9rem;
     }
 }
 
@@ -99,7 +116,25 @@
 
 /* Image reset done */
 
+#hero a {
+    color: #6fc8e3;
+    text-decoration: none;
+}
+
+#hero a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 strong, b {
     padding-top: 10px;
     display: block;
 }
+
+ul {
+    font-size:1.3rem;
+    color:#fff;
+    line-height: 1.23em;
+    font-weight: 100;
+}
+

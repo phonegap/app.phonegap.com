@@ -26,7 +26,7 @@ img.header {
   border: 0;
 }
 header a.home-link, header a.home-link:visited {
-    margin-right:30px;
+    margin-right:20px;
     text-decoration:none;
     color:#169fc7;
     font-size:0.75rem;
@@ -48,36 +48,25 @@ header a.home-link:before {
     top: 39%;
     left: -10px;
 }
-h2, h3, h4 {
-    line-height: 1em;
+a {
+    color: #111;
+    text-decoration: underline;
 }
 
-h4 {
-    color:#ccc;
+a:hover {
+    color: #fff;
 }
-label,
-input,
-textarea {
-    display:block;
-    resize: none;
+
+p{
+    color: #111;
+    font-size:1.125rem;
+    font-weight: 400;
 }
-label {
-    padding-bottom: 0.4rem;
+
+h2, h3, h4 {
+    color: #fff;
 }
-input[type=text], input[type=email], textarea {
-    width:100%;
-    padding:12px;
-    border:0px;
-    border-radius:22px;
-    margin-bottom:25px;
-    font-size: 1.0rem;
-    font-weight: 100;
-}
-input[type=submit] {
-    float:right;
-    border:none;
-}
-.main-btn, .tricky-btn, .submit-btn {
+.main-btn {
     font-size:1.25rem;
     font-weight: 400;
     color:#fff;
@@ -95,7 +84,7 @@ input[type=submit] {
     transition: background-color,.35s;
     -webkit-appearance: none;
 }
-.main-btn:hover, .tricky-btn:hover, .submit-btn:hover {
+.main-btn:hover {
     text-transform:uppercase;
     text-decoration:none;
     background:#ee3551;
@@ -105,21 +94,15 @@ input[type=submit] {
 /**** Setting .main-btn and .submit-btn font to resize with viewport ****/
 
 @media screen and (max-width: 62em) {
-    .main-btn, .submit-btn {
+    .main-btn {
         font-size:1.0rem;
     }
 }
 
 @media screen and (max-width: 55em) {
-    .main-btn, .submit-btn {
+    .main-btn {
         font-size:1.0rem;
         padding:18px 22px 18px 22px;
-    }
-}
- 
-@media screen and (max-width: 48em) {
-    .main-btn {
-        display:none;
     }
 }
 
@@ -161,5 +144,8 @@ footer a:hover {
 
 .copyright {
     padding-left: 10px;
+    font-size: 0.6rem;
+    font-weight: 100;
+    color: #fff;
 }
 
