@@ -52,10 +52,11 @@
 
 #hero h2 {
     font-size:1.7rem;
-    color:#fff;
+    color:#6fc8e3;
     font-weight: 100;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    line-height: 1.4rem;
 }
 
 /**** Setting h2 font to resize with viewport ****/
@@ -77,7 +78,7 @@
 /* Font resetting for h2 done */
 
 #hero p {
-    font-size:1.5rem;
+    font-size:1.4rem;
     color:#d0d0d0;
     line-height: 1.23em;
     font-weight: 100;
@@ -114,6 +115,11 @@
 }
 
 /* Image reset done */
+
+#hero a {
+    color: #6fc8e3;
+    text-decoration: none;
+}
 
 strong, b {
     padding-top: 10px;
