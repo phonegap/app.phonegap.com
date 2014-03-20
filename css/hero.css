@@ -121,6 +121,11 @@
     text-decoration: none;
 }
 
+#hero a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 strong, b {
     padding-top: 10px;
     display: block;

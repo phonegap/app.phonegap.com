@@ -53,6 +53,10 @@ a {
     text-decoration: underline;
 }
 
+a:hover {
+    color: #fff;
+}
+
 p{
     color: #111;
     font-size:1.125rem;
