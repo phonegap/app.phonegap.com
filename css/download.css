@@ -35,6 +35,8 @@
     font-size:1.9rem;
     padding-left: 30px;
     line-height: 1.5rem;
+    font-weight: 400;
+    text-shadow: 1px 1px 0px #0D7796;
 }
 
 /**** Setting h2 font to resize with viewport ****/

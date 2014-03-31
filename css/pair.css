@@ -35,6 +35,8 @@
 #pair h2 {
     font-size:1.9rem;
     line-height: 1.5rem;
+    font-weight: 400;
+    text-shadow: 1px 1px 0px #0A647E;
 }
 
 /**** Setting h2 font to resize with viewport ****/

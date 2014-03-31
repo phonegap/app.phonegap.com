@@ -1,6 +1,6 @@
 #hero {
     background:#2d3033;
-    padding: 30px 0 0 0;
+    padding: 30px 0 30px 0;
     position: relative;
 }
 
@@ -80,10 +80,10 @@
 #hero p {
     font-size:1.3rem;
     color:#fff;
-    line-height: 1.5em;
+    line-height: 0.9em;
     font-weight: 100;
     text-align: center;
-    padding-bottom: 20px;
+    padding-top: -10px;
 }
 
 /**** Setting p font to resize with viewport ****/

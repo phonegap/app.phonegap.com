@@ -34,6 +34,8 @@
 #install h2 {
     font-size:1.9rem;
     line-height: 1.5rem;
+    font-weight: 400;
+    text-shadow: 1px 1px 0px #27a1c5;
 }
 
 /**** Setting h2 font to resize with viewport ****/

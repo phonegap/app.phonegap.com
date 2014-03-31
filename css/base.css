@@ -49,18 +49,18 @@ header a.home-link:before {
     left: -10px;
 }
 a {
-    color: #111;
+    color: #fff;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #fff;
+    color: #167BA1;
 }
 
 p{
-    color: #111;
+    color: #fff;
     font-size:1.125rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 h2, h3, h4 {
