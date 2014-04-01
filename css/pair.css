@@ -41,8 +41,21 @@
 
 /**** Setting h2 font to resize with viewport ****/
 
+@media screen and (max-width: 62em) {
+    #pair h2 {
+        font-size:1.7rem;
+        margin: 0;
+    }
+}
  
-@media screen and (max-width: 55em) {
+@media screen and (max-width: 57em) {
+    #pair h2 {
+        font-size:1.55rem;
+    }
+}
+ 
+ 
+@media screen and (max-width: 48em) {
     #pair h2 {
         font-size:1.5rem;
         text-align: center;
@@ -58,19 +71,31 @@
 
 /**** Setting p font to resize with viewport ****/
 
+@media screen and (max-width: 62em) {
+#pair p {
+        font-size: 1.0rem;
+    }
+}
+
+@media screen and (max-width: 57em) {
+#pair p {
+        font-size: 0.95rem;
+    }
+}
  
 @media screen and (max-width: 48em) {
 #pair p {
         text-align: center;
         padding: 0;
-        font-size: 1.0rem;
+        font-size: 0.9rem;
     }
 }
 
 /* Font resetting for p done */
 
 #pair img {
-  max-height: 260px;
+  max-height: 200px;
+  vertical-align: middle;
 }
 
 /**** Setting install image to scale with small ****/
@@ -78,6 +103,7 @@
 @media screen and (max-width: 57em) {
 #pair img {
         max-height: 180px;
+        padding: 20px 0 30px 0;
     }
 }
 

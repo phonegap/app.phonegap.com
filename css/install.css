@@ -36,10 +36,24 @@
     line-height: 1.5rem;
     font-weight: 400;
     text-shadow: 1px 1px 0px #27a1c5;
+    margin-top: 15px;
 }
 
 /**** Setting h2 font to resize with viewport ****/
 
+@media screen and (max-width: 62em) {
+    #install h2 {
+        font-size:1.7rem;
+        margin: 0;
+    }
+}
+ 
+@media screen and (max-width: 57em) {
+    #install h2 {
+        font-size:1.55rem;
+    }
+}
+ 
  
 @media screen and (max-width: 48em) {
 #install h2 {
@@ -52,32 +66,49 @@
 
 #install p {
     padding:0 30px 0 0;
-    vertical-align: top;
+    vertical-align: text-top;
 }
 
 /**** Setting p font to resize with viewport ****/
 
- 
+@media screen and (max-width: 62em) {
+    #install p {
+        font-size: 1.0rem;
+    }
+}
+
+@media screen and (max-width: 57em) {
+    #install p {
+        font-size: 0.95rem;
+    }
+}
+
 @media screen and (max-width: 48em) {
     #install p {
         text-align: center;
         padding: 0;
-        font-size: 1.0rem;
+        font-size: 0.9rem;
     }
 }
 
 /* Font resetting for p done */
 
 #install img {
-  max-height: 220px;
+  max-height: 180px;
+  vertical-align: center;
 }
 
 /**** Setting install image to scale with small ****/
 
 @media screen and (max-width: 57em) {
-#install img {
+    #install img {
         max-height: 180px;
     }
 }
+
+@media screen and (max-width: 48em) {
+    #install img {
+        padding: 20px 0 30px 0;
+    }
 
 /* Image reset done */

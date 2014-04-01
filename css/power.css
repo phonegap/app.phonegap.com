@@ -24,12 +24,24 @@
 
 /**** Setting h2 font to resize with viewport ****/
 
- 
-@media screen and (max-width: 55em) {
+@media screen and (max-width: 62em) {
 #power h2 {
-    font-size:1.5rem;
-    text-align: center;
-    padding-left: 0;
+        font-size:1.7rem;
+        margin: 0;
+    }
+}
+ 
+@media screen and (max-width: 57em) {
+#power h2 {
+        font-size:1.55rem;
+    }
+}
+ 
+ 
+@media screen and (max-width: 48em) {
+#power h2 {
+        font-size:1.5rem;
+        text-align: center;
     }
 }
 
@@ -42,12 +54,23 @@
 
 /**** Setting p font to resize with viewport ****/
 
+@media screen and (max-width: 62em) {
+#power p {
+        font-size: 1.0rem;
+    }
+}
+
+@media screen and (max-width: 57em) {
+#power p {
+        font-size: 0.95rem;
+    }
+}
  
 @media screen and (max-width: 48em) {
 #power p {
-    text-align: center;
-    padding: 0;
-    font-size: 1.0rem;
+        text-align: center;
+        padding: 0;
+        font-size: 0.9rem;
     }
 }
 
@@ -56,3 +79,14 @@
 #power img {
   max-height: 220px;
 }
+
+/**** Setting install image to scale with small ****/
+
+@media screen and (max-width: 57em) {
+#power img {
+        max-height: 180px;
+        padding: 20px 0 30px 0;
+    }
+}
+
+/* Image reset done */

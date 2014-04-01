@@ -77,31 +77,6 @@
 
 /* Font resetting for h2 done */
 
-#hero p {
-    font-size:1.3rem;
-    color:#fff;
-    line-height: 0.9em;
-    font-weight: 100;
-    text-align: center;
-    padding-top: -10px;
-}
-
-/**** Setting p font to resize with viewport ****/
-
-@media screen and (max-width: 62em) {
-    #hero p {
-        font-size:1.1rem;
-    }
-}
- 
-@media screen and (max-width: 57em) {
-    #hero p {
-        font-size:0.9rem;
-    }
-}
-
-/* Font resetting for p done */
-
 #hero img {
 	max-height: 220px;
 }
@@ -137,4 +112,22 @@ ul {
     line-height: 1.23em;
     font-weight: 100;
 }
+
+/**** Setting ul font to resize with viewport ****/
+
+@media screen and (max-width: 62em) {
+    ul {
+        font-size:1.1rem;
+        padding-bottom: 10px;
+
+    }
+}
+ 
+@media screen and (max-width: 57em) {
+    ul {
+        font-size:0.95rem;
+    }
+}
+
+/* Font resetting for ul done */
 
