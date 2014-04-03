@@ -81,7 +81,7 @@ h2, h3, h4 {
     border-radius:6px;
     letter-spacing:1px;
     display:inline-block;
-    margin:22px 0 0 0;
+    margin:22px 10px 0 0;
     text-shadow:0px 1px 0px #C7750E;
     cursor: hand;
     -webkit-transition: background-color,.35s;
@@ -125,7 +125,7 @@ h2, h3, h4 {
     border-radius:6px;
     letter-spacing:1px;
     display:inline-block;
-    margin:22px 0 0 0;
+    margin:22px 10px 0 0;
     line-height:0.9rem;
 }
 
