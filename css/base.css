@@ -169,6 +169,7 @@ footer a:hover {
     display:block;
     padding-left: 40px;
     width: 350px;
+    margin-bottom: -2px;
 }
 
 /**** Setting .wrapper for smallest viewport ****/
@@ -187,5 +188,6 @@ footer a:hover {
     font-size: 0.6rem;
     font-weight: 100;
     color: #fff;
+    line-height: 0.85rem;
 }
 
