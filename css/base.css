@@ -49,18 +49,19 @@ header a.home-link:before {
     left: -10px;
 }
 a {
-    color: #fff;
+    color: #167BA1;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #167BA1;
+    color: #fff;
 }
 
 p {
-    color: #fff;
+    color: #2d3033;
     font-size:1.125rem;
-    font-weight: 300;
+    font-weight: 400;
+    line-height: 1.6rem;
 }
 
 h2, h3, h4 {
@@ -80,7 +81,7 @@ h2, h3, h4 {
     border-radius:6px;
     letter-spacing:1px;
     display:inline-block;
-    margin:12px 0 0 0;
+    margin:22px 0 0 0;
     text-shadow:0px 1px 0px #C7750E;
     cursor: hand;
     -webkit-transition: background-color,.35s;
@@ -119,12 +120,12 @@ h2, h3, h4 {
     color:#45b8da;
     text-transform:uppercase;
     text-decoration:none;
-    background:#27a1c5;
+    background:#1c738c;
     padding:15px 0px 15px 48px;
     border-radius:6px;
     letter-spacing:1px;
     display:inline-block;
-    margin:12px 0 0 0;
+    margin:22px 0 0 0;
     line-height:0.9rem;
 }
 
