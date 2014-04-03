@@ -68,18 +68,20 @@ h2, h3, h4 {
     margin: 0px;
 }
 .main-btn {
-    font-size:1.25rem;
+    width: 95%;
+    font-size:0.9rem;
     font-weight: 400;
+    line-height:0.9rem;
     color:#fff;
     text-transform:uppercase;
     text-decoration:none;
-    background:#27a1c5;
-    padding:19px 25px 19px 25px;
+    background:#f4b505;
+    padding:15px 15px 15px 48px;
     border-radius:6px;
     letter-spacing:1px;
     display:inline-block;
-    margin:12px 0 20px 0;
-    text-shadow:0px 1px 0px #006889;
+    margin:12px 0 0 0;
+    text-shadow:0px 1px 0px #C7750E;
     cursor: hand;
     -webkit-transition: background-color,.35s;
     transition: background-color,.35s;
@@ -90,24 +92,60 @@ h2, h3, h4 {
     text-decoration:none;
     background:#ee3551;
     text-shadow:none;
+    color: #fff;
 }
 
-/**** Setting .main-btn and .submit-btn font to resize with viewport ****/
+/**** Setting .main-btn font to resize with viewport ****/
 
 @media screen and (max-width: 62em) {
     .main-btn {
-        font-size:1.0rem;
+        font-size:0.8rem;
     }
 }
 
 @media screen and (max-width: 55em) {
     .main-btn {
-        font-size:1.0rem;
-        padding:18px 22px 18px 22px;
+        font-size:0.8rem;
+        padding:13px 19px 13px 48px;
     }
 }
 
 /* Font resetting for buttons done */
+
+.soon-btn {
+    width: 95%;
+    font-size:0.9rem;
+    font-weight: 400;
+    color:#45b8da;
+    text-transform:uppercase;
+    text-decoration:none;
+    background:#27a1c5;
+    padding:15px 0px 15px 48px;
+    border-radius:6px;
+    letter-spacing:1px;
+    display:inline-block;
+    margin:12px 0 0 0;
+    line-height:0.9rem;
+}
+
+/**** Setting .soon-btn font to resize with viewport ****/
+
+@media screen and (max-width: 62em) {
+.soon-btn {
+        font-size:0.8rem;
+    }
+}
+
+@media screen and (max-width: 55em) {
+.soon-btn {
+        font-size:0.7rem;
+        padding:13px 19px 13px 48px;
+    }
+}
+
+/* Font resetting for buttons done */
+
+
 footer {
     background:#333;
     color:#fff;
