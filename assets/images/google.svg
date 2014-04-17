@@ -2,13 +2,12 @@
 <!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
-	 id="svg8549" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 id="svg8549" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
-	 viewBox="33 33 30 30" enable-background="new 33 33 30 30" xml:space="preserve">
+	 viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
 <g id="layer1" transform="translate(-592,-327.21937)">
-	<path id="path10138" fill="#45B8DA" d="M629.546,363.253c-0.495,0.151-0.784,0.677-0.784,1.411v10.579v10.563
-		c0,0.728,0.279,1.224,0.768,1.379l10.908-11.974L629.546,363.253z M631.443,363.833l9.67,10.642l3.229-3.542L631.443,363.833
-		L631.443,363.833z M645.266,371.434l-3.464,3.793l3.479,3.808l4.733-2.602c0.879-0.493,1.222-0.722,1.222-1.191
-		c0-0.469-0.343-0.698-1.222-1.191L645.266,371.434z M641.128,375.979l-9.717,10.657l12.961-7.1L641.128,375.979z"/>
+	<path id="path10138" fill="#FFFFFF" d="M596.5,330.2c-0.5,0.2-0.8,0.7-0.8,1.4v10.6v10.6c0,0.7,0.3,1.2,0.8,1.4l10.9-12
+		L596.5,330.2z M598.5,330.7l9.7,10.6l3.2-3.5L598.5,330.7L598.5,330.7z M612.3,338.3l-3.5,3.8l3.5,3.8l4.7-2.6
+		c0.9-0.5,1.2-0.7,1.2-1.2s-0.3-0.7-1.2-1.2L612.3,338.3z M608.1,342.9l-9.7,10.7l13-7.1L608.1,342.9z"/>
 </g>
 </svg>
