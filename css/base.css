@@ -48,11 +48,17 @@ header a.home-link:before {
     top: 39%;
     left: -10px;
 }
+a.store-link{
+    color: #fff;
+    text-decoration: underline;
+}
+a.store-link:hover{
+    color: #ee3551;
+}
 a {
     color: #167BA1;
     text-decoration: underline;
 }
-
 a:hover {
     color: #fff;
 }
