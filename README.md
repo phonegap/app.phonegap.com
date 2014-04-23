@@ -1,14 +1,9 @@
-app.phonegap.com
-===
+# app.phonegap.com
 
-Website for [app.phonegap.com](htpp://app.phonegap.com)
+> Micro-site for the PhoneGap Developer App and PhoneGap Desktop app.
 
-Setup
----
+> http://app.phonegap.com
 
-    $ npm install
+## Deploy
 
-Running the site locally
----
-
-    $ npm run watch
+Push to the `gh-pages` branch.
